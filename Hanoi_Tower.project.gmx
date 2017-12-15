@@ -3,18 +3,39 @@
   <Configs name="configs">
     <Config>Configs\Default</Config>
   </Configs>
+  <datafiles number="1" name="datafiles">
+    <datafile>
+      <name>data.ini</name>
+      <exists>-1</exists>
+      <size>0</size>
+      <exportAction>2</exportAction>
+      <exportDir></exportDir>
+      <overwrite>0</overwrite>
+      <freeData>-1</freeData>
+      <removeEnd>0</removeEnd>
+      <store>0</store>
+      <ConfigOptions>
+        <Config name="Default">
+          <CopyToMask>9223372036854775807</CopyToMask>
+        </Config>
+      </ConfigOptions>
+      <filename>data.ini</filename>
+    </datafile>
+  </datafiles>
   <NewExtensions/>
   <sounds name="sound"/>
   <sprites name="sprites">
     <sprite>sprites\s_block</sprite>
-    <sprite>sprites\s_title</sprite>
+    <sprite>sprites\s_restart</sprite>
   </sprites>
   <backgrounds name="background">
     <background>background\b_main</background>
   </backgrounds>
   <paths name="paths"/>
   <scripts name="scripts">
+    <script>scripts\closer.gml</script>
     <script>scripts\pluszero.gml</script>
+    <script>scripts\mouse_in.gml</script>
   </scripts>
   <fonts name="fonts">
     <font>fonts\f_roboto48</font>
